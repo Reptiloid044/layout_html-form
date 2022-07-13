@@ -1,14 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    <meta
+
+     name="viewport"
+     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> </title>
+    <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body class="body">
+  <body>
+    <h1></h1>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
 
       <fieldset class="field">
@@ -57,7 +61,8 @@
           type="checkbox"
           name="decision"
           required
-          autocomplete="off">
+          autocomplete="off"
+          >
         </label>
       </fieldset>
 
@@ -70,7 +75,8 @@
             name="enter"
             required
             placeholder="email@example.com"
-            autocomplete="off">
+            autocomplete="off"
+          >
         </label>
 
         <label class="form-field">
@@ -78,7 +84,8 @@
           <input
             type="password"
             required
-            autocomplete="off">
+            autocomplete="off"
+          >
         </label>
       </fieldset>
 
@@ -89,13 +96,15 @@
           <input
             type="radio"
             name="decisionYes"
-            autocomplete="off">
-        Yes
+            autocomplete="off"
+          >
+        yes
           <input
             type="radio"
             name="decisionNO"
-            autocomplete="off">
-        NO
+            autocomplete="off"
+          >
+        no
         </label>
 
         <label class="form-field">
@@ -103,7 +112,8 @@
           <input
             type="color"
             name="color"
-            autocomplete="off">
+            autocomplete="off"
+          >
         </label>
 
         <label class="form-field">
@@ -111,7 +121,8 @@
           <input
             type="time"
             name="time"
-            autocomplete="off">
+            autocomplete="off"
+          >
         </label>
 
         <label class="form-field">
@@ -127,7 +138,8 @@
         How do you rate our work?
           <input
             type="range"
-            name="volume">
+            name="volume"
+          >
         </label>
       </fieldset>
 
@@ -141,7 +153,7 @@
         <label class="form-field">
         Would you recommend us?
           <select name="reccomendation">
-            <option value="YES">YES</option>
+            <option value="YES">yes</option>
             <option value="no">no</option>
           </select>
         </label>

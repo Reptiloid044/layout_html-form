@@ -1,14 +1,13 @@
 /* styles go here */
 .field {
-  display: block;
   margin-bottom: 20px;
 }
 
 .form-field {
   display: block;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
-.button {
-  color: red;
+.form-field:last-child {
+  margin-bottom: 0;
 }
